@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="SampleTEstSuite">
+<test name="SampleTest01">
+<classes>
+
+<class name="com.maven.autosel.LoginPage"/>
+<class name="com.maven.autosel.VerifyWordpressLogin"/>
+
+
+
+</classes>
+</test>
+</suite>

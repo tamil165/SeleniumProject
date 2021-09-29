@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleSuite2" duration-ms="66476" started-at="2021-09-29T10:07:23 IST" finished-at="2021-09-29T10:08:30 IST">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="22478" started-at="2021-09-29T10:07:23 IST" finished-at="2021-09-29T10:07:46 IST">
+      <class name="com.maven.autosel.RecorderScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.maven.autosel.RecorderScript@6b1b19cf]" name="setup" is-config="true" duration-ms="4070" started-at="2021-09-29T10:07:23 IST" finished-at="2021-09-29T10:07:27 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:com.maven.autosel.RecorderScript@6b1b19cf]" name="testParameterWithXML" duration-ms="18357" started-at="2021-09-29T10:07:27 IST" finished-at="2021-09-29T10:07:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.maven.autosel.RecorderScript -->
+    </test> <!-- SampleTest -->
+    <test name="Sample2Test" duration-ms="43973" started-at="2021-09-29T10:07:46 IST" finished-at="2021-09-29T10:08:30 IST">
+      <class name="com.maven.autosel.RecorderScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.maven.autosel.RecorderScript@691500ab]" name="setup" is-config="true" duration-ms="6073" started-at="2021-09-29T10:07:46 IST" finished-at="2021-09-29T10:07:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:com.maven.autosel.RecorderScript@691500ab]" name="testParameterWithXML" duration-ms="37898" started-at="2021-09-29T10:07:52 IST" finished-at="2021-09-29T10:08:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- com.maven.autosel.RecorderScript -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- SampleSuite2 -->
+</testng-results>
